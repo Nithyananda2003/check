@@ -1,0 +1,29 @@
+<%- include('header.html') -%>
+
+<div class="container-fluid login-body d-flex justify-content-center align-items-center flex-column row-gap-3 p-0 m-0">
+
+	<div class="shadow-sm px-4 py-5 border bg-light bg-gradient" style="min-width: 400px;">
+		<h5 class="border-bottom pb-2">INVICTO</h5>
+		<h6 class="py-2 text-primary">Login Form</h6>
+		<form method="post" action="/user/login" >
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label">Employee ID</label>
+				<input type="text" name="employeeid" class="form-control" aria-describedby="emailHelp" placeholder="INV***" required autocomplete="off">
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputPassword1" class="form-label">Password</label>
+				<input type="password" name="password" class="form-control" required autocomplete="off">
+			</div>
+			<div class="d-grid d-md-flex justify-content-md-end">
+				<button type="submit" class="btn btn-primary px-4 btn-sm button-radius-none" type="button">Login</button>
+			</div>
+		</form>
+	</div>
+
+	<div class="shadow-sm px-4 py-3 border bg-light bg-gradient" style="width: 400px;">
+		<p class="m-0">No account? <a href="#">Contact Admin!</a></p>
+	</div>
+
+</div>
+
+<%- include('footer.html') -%>

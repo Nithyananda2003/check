@@ -1,0 +1,34 @@
+body{
+	margin: 0px;
+	height: 100vh;
+}
+.login-body{
+	height: 100vh;
+}
+.label-font-size{
+	font-size: 14px !important;
+}
+.loading-modal{
+	height: 100vh; 
+	width: 100%; 
+	position: fixed; 
+	z-index: 1000; 
+	display: flex; 
+	justify-content: center; 
+	align-content: center; 
+	align-items: center; 
+	background-color: rgba(146, 139, 175, 0.5);
+}
+.loading-modal-hide{
+	display: none;
+}
+
+.report-table-bg-heading{
+	background-color: #5594b0 !important;
+}
+.report-table-bg-data{
+	background-color: #ccdfe7 !important;
+}
+.report-table-bg-data-light{
+	background-color: #ecf9ff !important;
+}
