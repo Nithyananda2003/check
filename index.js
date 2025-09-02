@@ -21,9 +21,6 @@ import darke_router from "./routes/ohio.route.js";
 
 import protectRoute from "./middleware/protectRoute.js";
 
-import arizona_router from "./routes/arizona.route.js";
-import washington_router from "./routes/washington.route.js";
-
 app.use(cors());
 
 app.use(cookieParser());
