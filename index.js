@@ -32,9 +32,7 @@ app.get("/tax", protectRoute, (req, res) => {
     res.render('order_search')
 });
 
-app.use("/tax/AZ", arizona_router);
 app.use("/tax/OH", darke_router);
-app.use("/tax/WA", washington_router);
 
 app.use("/tax/:state/:county", (req, res) => {
     res.json({ error: true, message: "Service Unavailable for this county" })
